@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color:  rgb(219, 239, 248);
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+
+.logo {
+     color: white;
+     font-size: 30px;
+     font-weight: bold;
+
+}
+
+span{
+     color: #8096d8;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-gap: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #2A4359;
+    color: white;
+    height: 190vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color:  rgb(219, 239, 248);
+    color: #0569ff;
+}
+
+.sidebar img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+  
+.notifications-container {
+  padding: 20px;
+  flex: 1;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.notification-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.notification {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.notification .tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.tag.green { background-color: #28a745; }
+.tag.orange { background-color: #fd7e14; }
+.tag.blue { background-color: #007bff; }
+.tag.purple { background-color: #6f42c1; }
+
+.notification h4 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.notification .description {
+  margin: 5px 0 10px;
+  color: #555;
+}
+
+.notification .time {
+  font-size: 12px;
+  color: #888;
+}
+
+.notification .close-btn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+.delete-account {
+    background-color:  #ff3b3b;
+    border-radius: 10px;
+}
+
+.delete-account a {
+    color: #ff4d4d;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.delete-account a:hover {
+    background-color: rgb(255, 49, 49);
+    border-radius: 10px;
+}

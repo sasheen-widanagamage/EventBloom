@@ -1,0 +1,204 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header Navigation */
+.hero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+span {
+    color: #2A4359;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #2A4359;
+    transition: .3s;
+}
+
+button {
+    border: none;
+    background: linear-gradient(45deg, #2A4359, #76adde);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit; /* optional: makes the link inherit button text color */
+  }
+
+button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* Background Video */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Contact Form Section */
+.contact {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Form Styling */
+.contact form {
+    width: 420px;
+    height: auto;
+    background: rgba(16, 1, 51, 0.216);
+    color: #ddd;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 30px 40px;
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact form h1 {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: transparent;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.207);
+    color: #ddd;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+    color: #ddd;
+    font-weight: bold;
+}
+
+.contact form textarea {
+    min-height: 80px;
+    max-height: 80px;
+    resize: none;
+}
+
+
+.submit-btn {
+    background-color: #1771f8;
+    color: white;
+   margin-left: 90px; 
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    width: 150px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0d47a1;
+    transform: scale(1.03);
+  }
+  
+.edit-btn{
+	background-color: #4CAF50;
+    color: white;
+    margin-left: 90px; 
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    width: 150px;
+}
+
+.edit-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.03);
+  }
+  
+.delete-btn{
+	background-color: #EA4335;
+    color: white;
+    margin-left: 90px; 
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    width: 150px;
+}  
+  
+.delete-btn:hover {
+    background-color: #c0392b;
+    transform: scale(1.03);
+  }  
+  

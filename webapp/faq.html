@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>FAQ | Vista Cinema</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='css/faq.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Event<span>Bloom</span></h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="eventsInfo.html">Events</a></li>
+                <li><a href="contactus.jsp">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button type="button"><a href="register.jsp">Sign Up</a></button>
+        </nav>
+    </div>
+
+
+    <!-- Background Video -->
+    <video autoplay muted loop id="bg-video">
+        <source src="image/event.mp4" type="video/mp4">
+    </video>
+
+    <section class="faq-section">
+        <h1 class="title">FREQUENTLY ASKED QUESTIONS</h1>
+        <h1 class="totle">FREQUENTLY ASKED QUESTIONS</h1>
+
+        <ul class="faq">
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span> 
+                    <span>Is EventBloom free to use?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes, browsing event packages and exploring general information is free. However, booking an event or consulting with an expert may involve a fee.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span> 
+                    <span> How do I create an account?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Click the Sign Up button on the homepage, fill in the required details, and verify your email to activate your account.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Can I use EventBloom on mobile devices?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes, our platform is mobile-friendly and can be accessed from smartphones, tablets, and desktops.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Can I customize my event?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes! You can customize various aspects of your event, including venue setup, catering, decorations, and entertainment.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>How far in advance should I book an event?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        We recommend booking at least one month in advance to ensure availability, especially for large-scale events.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Can I modify my booking after confirmation?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes, but modifications must be made at least 7 days before the event. Contact customer support for assistance.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Can I cancel my event booking?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes, cancellation policies vary based on the event type. Check our cancellation policy or contact support for details.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>How can I contact an Event Planner?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Registered users can communicate with an Event Planner through the platform's messaging system.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>How do I schedule a consultation with an Event Moderator?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Log in to your account, navigate to the Consultation section, select a moderator, and schedule an appointment. A small fee applies for expert consultation.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Can I contact the Event Moderator after booking?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Yes, after booking an event, you can communicate with the assigned Event Moderator for updates and assistance.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>What payment methods does EventBloom accept?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        We accept major credit/debit cards, PayPal, and other secure online payment methods.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>Do I need to pay the full amount upfront?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        Some events may require a deposit, while others require full payment upon booking. The payment details will be provided during checkout.
+                    </p>
+                </div>
+            </li>
+
+            <li>
+                <div class="q">
+                    <span class="arrow"></span>
+                    <span>How do I report a problem or give feedback about EventBloom?</span>
+                </div>
+                <div class="a">
+                    <p>
+                        You can send feedback through the Contact Us page or leave a review in your account dashboard.
+                    </p>
+                </div>
+            </li>
+
+        </ul>    
+    </section>
+
+    <script>
+        const q = document.querySelectorAll('.q');
+        const a = document.querySelectorAll('.a');
+        const arr = document.querySelectorAll('.arrow');
+
+        for (let i = 0; i < q.length; i++) {
+            q[i].addEventListener('click', () => {
+                a[i].classList.toggle('a-opened');
+                arr[i].classList.toggle('arrow-rotated');
+            });
+        }
+    </script>
+
+    <br>
+    <br>
+
+   <!-- Footer -->
+  <footer class="footer">
+    <div class="f_container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Event Bloom</h4>
+                <ul>
+                    <li><a href="terms.jsp">Terms & Conditions</a></li>
+                    <li><a href="privacy.jsp">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contactus.jsp">Help Center</a></li>
+                    <li><a href="eventsInfo.html"> Our Services</a></li>
+                    <li><a href="poption.html">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://x.com/"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>contact@EventBloom.com</li>
+                    <li>+9471235679</li>
+                    <li>1102/B,Bambala Pitiya, Colombo 03</li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Vista Cinema</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/aboutus.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <div class="hero">
+        <nav>
+            <h2 class="logo">Event<span>Bloom</span></h2>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="eventsInfo.html">Events</a></li>
+                <li><a href="contactus.jsp">Contact</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <button type="button"><a href="register.jsp">Sign Up</a></button>
+        </nav>
+    </div>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="home">
+    <img src="image/about.jpg" alt="EventBloom Banner" style="width:100%; height:100vh; object-fit:cover; position:absolute; top:0; left:0; z-index:-1;">
+    <div class="home-content">
+        <h2>About Us</h2>
+        <h4>Creating Unforgettable Moments</h4>
+        <p>EventBloom specializes in crafting elegant, seamless, and breathtaking events...</p>
+        <button onclick="window.location.href='eventsInfo.html'">Contact Us</button>
+     </div>
+     </section>
+
+
+
+    <div class="about-us-container">
+        <div class="about-us-image-container">
+            <img src="image/about2.jpg" alt="Cinema Interior" class="about-us-main-image">
+        </div>
+        <div class="about-us-text-container">
+            <h3>
+                Who We Are
+            </h3>
+            <p>
+                Welcome to <b>EventBloom</b>—where every detail matters. We are passionate about designing and executing events that reflect your unique style and personality. Whether it's a dreamy wedding, a sophisticated corporate event, or a vibrant celebration, our team ensures a flawless and stress-free experience. Let’s create something extraordinary together!
+            </p>
+        </div>
+    </div>
+
+    <!-- Our Skills Section -->
+    <section class="skills">
+        <h3>Our Expertise</h3>
+        <p>We specialize in creating extraordinary events that are seamlessly executed and beautifully designed.</p>
+        <div class="skill">
+            <h3>Event Planning</h3>
+            <div class="progress-bar">
+                <div class="progress" data-percent="98"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Decor & Design</h3>
+            <div class="progress-bar">
+                <div class="progress" data-percent="95"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Client Satisfaction</h3>
+            <div class="progress-bar">
+                <div class="progress" data-percent="99"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="about-us-container">
+        <div class="about-us-text-container">
+            <h3>
+                Our Vision
+            </h3>
+            <p>
+                At <b>EventBloom</b>, we believe that every event tells a story—a story of love, success, joy, and unforgettable moments. Our vision is to redefine event planning by blending creativity, precision, and passion to craft experiences that leave a lasting impression.
+            </p>
+            <p>
+                We aspire to be the leading force in luxury event curation, where every detail is meticulously designed, and every celebration reflects the unique essence of our clients. With innovation, elegance, and seamless execution at the heart of our process, we transform dreams into reality, one event at a time.
+            </p>
+
+        </div>
+        <div class="about-us-image-container">
+            <img src="image/about3.jpg" alt="Cinema Interior" class="about-us-main-image">
+        </div>
+        
+    </div>
+    
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="stat">
+            <h4>10+</h4>
+            <p>Years in Event Planning</p>
+        </div>
+        <div class="stat">
+            <h4>500+</h4>
+            <p>Successful Events</p>
+        </div>
+        <div class="stat">
+            <h4>50+</h4>
+            <p>Event Themes & Styles</p>
+        </div>
+        <div class="stat">
+            <h4>24/7</h4>
+            <p>Client Support</p>
+        </div>
+    </section>
+
+    <div class="about-us-container">
+        <div class="about-us-image-container">
+            <img src="image/about4.jpg" alt="Cinema Interior" class="about-us-main-image">
+        </div>
+        <div class="about-us-text-container">
+            <h3>
+                Our Mission
+            </h3>
+            <p>
+                At EventBloom, our mission is to craft unforgettable experiences by seamlessly blending creativity, precision, and passion. We strive to bring our clients' visions to life, ensuring every event is a true reflection of their unique story.
+            </p>
+        </div>
+    </div>
+
+    
+    <!-- Call-to-Action Section -->
+    <section class="cta">
+        <h2>Let's Bring Your Dream Event to Life</h2>
+        <button onclick="window.location.href='eventsInfo.html'">Get Started</button>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const progressBars = document.querySelectorAll(".progress");
+
+    progressBars.forEach(bar => {
+        const percent = bar.getAttribute("data-percent");
+        bar.style.width = percent + "%";
+        bar.style.backgroundColor = "##007bff"; // Change this to your desired color
+        bar.style.transition = "width 1.5s ease-in-out";
+    });
+});
+
+    </script>
+
+<!-- Footer -->
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="f_container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Event Bloom</h4>
+                <ul>
+                    <li><a href="terms.jsp">Terms & Conditions</a></li>
+                    <li><a href="privacy.jsp">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contactus.jsp">Help Center</a></li>
+                    <li><a href="eventsInfo.html"> Our Services</a></li>
+                    <li><a href="poption.html">Payment Options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://x.com/"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://web.whatsapp.com/"><i class='bx bxl-whatsapp'></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>contact@EventBloom.com</li>
+                    <li>+9471235679</li>
+                    <li>1102/B,Bambala Pitiya, Colombo 03</li>
+                </ul>
+            </div>
+        </div>
+    </div>   
+</footer>
+
+</body>
+</html>
+
