@@ -19,7 +19,7 @@
 
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Java  
-- **Tools**: Git, GitHub, MySQL (if any), Servlet/JSP (if used)
+- **Tools**: Git, GitHub, MySQL, Servlet
 
 ---
 
